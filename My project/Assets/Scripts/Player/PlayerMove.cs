@@ -2,10 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Service
 public class PlayerMove : MonoBehaviour
 {
     [SerializeField]
     private float moveSpeed, horizontalSpeed;
+    private float moveDistance;
+
+    public float MoveDistance { get => moveDistance; set => moveDistance = value; }
 
     // Update is called once per frame
     void Update()
@@ -25,5 +29,13 @@ public class PlayerMove : MonoBehaviour
             movement.x = -Time.deltaTime * horizontalSpeed;
         }
         transform.Translate(movement);
+        MoveDistance += movement.z; // Model [ PLAYER ]
+        //StartCoroutine(calDistance());
     }
+
+    //IEnumerator calDistance()
+    //{
+    //    yield return new WaitForSeconds(0);
+    //    moveDistance += 1;
+    //}
 }

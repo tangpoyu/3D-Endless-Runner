@@ -59,10 +59,10 @@
     <Compile Include="Assets\Scripts\collectibles\RotateGameObject.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\Controller\UIHandler.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Helper\TagsManager.cs" />
     <Compile Include="Assets\Scripts\Environment\LevelBoundary.cs" />
-    <Compile Include="Assets\Scripts\Controller\UIHandler.cs" />
     <Compile Include="Assets\Scripts\collectibles\Collect.cs" />
   </ItemGroup>
   <ItemGroup>

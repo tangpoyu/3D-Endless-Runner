@@ -17,7 +17,7 @@ public class Collect : MonoBehaviour
         string otherName = (string)other.gameObject.tag;
         switch (otherName)
         {
-            // model ? COIN ?
+            // Model [ COIN ]
             case "Coin":
                 coinCount++;
                 coinFX.Play();
