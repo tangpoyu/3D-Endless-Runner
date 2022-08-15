@@ -12,7 +12,7 @@ public class PlayerMove : MonoBehaviour
     {
         Vector3 movement = Vector3.zero;
         movement.z = Time.deltaTime * moveSpeed;
-        print(Input.GetAxisRaw(Axis.HORIZONTAL));
+        //print(Input.GetAxisRaw(Axis.HORIZONTAL));
         float horizontalMove = Input.GetAxisRaw(Axis.HORIZONTAL);
         float currentPosition = transform.position.x;
         if (horizontalMove > 0 && currentPosition <= LevelBoundary.Side)

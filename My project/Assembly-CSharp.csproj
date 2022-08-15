@@ -56,13 +56,14 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\collectibles\RotateGameObject.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Helper\TagsManager.cs" />
     <Compile Include="Assets\Scripts\Environment\LevelBoundary.cs" />
-    <Compile Include="Assets\Scripts\collectibles\RotateGameObject.cs" />
-    <Compile Include="Assets\Scripts\collectibles\CollectCoin.cs" />
+    <Compile Include="Assets\Scripts\Controller\UIHandler.cs" />
+    <Compile Include="Assets\Scripts\collectibles\Collect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Water_Shader_WebGl.shader" />

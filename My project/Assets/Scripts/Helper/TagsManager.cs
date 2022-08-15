@@ -3,3 +3,8 @@ public class Axis
     public static readonly string HORIZONTAL = "Horizontal";
     public static readonly string VERTICAL = "Vertical";
 }
+
+public class GameObjectTags
+{
+    public static readonly string COIN = "Coin";
+}
