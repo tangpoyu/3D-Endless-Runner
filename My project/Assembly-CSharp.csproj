@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Helper\TagsManager.cs" />
     <Compile Include="Assets\Scripts\Environment\LevelBoundary.cs" />
     <Compile Include="Assets\Scripts\collectibles\Collect.cs" />
+    <Compile Include="Assets\Scripts\Environment\LevelStarter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Water_Shader_WebGl.shader" />
