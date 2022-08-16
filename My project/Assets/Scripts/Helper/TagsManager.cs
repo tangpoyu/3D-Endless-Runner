@@ -8,3 +8,8 @@ public class GameObjectTags
 {
     public static readonly string COIN = "Coin";
 }
+
+public class PlayerAnimation
+{
+    public const string KNOCKDOWN_TRIGGER = "KnockedDown";
+}

@@ -6,9 +6,12 @@ using UnityEngine;
 public class Collect : MonoBehaviour
 {
     [SerializeField]
-    private AudioSource coinFX;
+    private AudioSource coinFX; // Model [ AudioSource ]
     private int coinCount = 0;
     public int CoinCount { get => coinCount; set => coinCount = value; }
+    public bool IsCollided { get => isCollided; set => isCollided = value; }
+
+    private bool isCollided = false;
   
 
     private void OnTriggerEnter(Collider other)
@@ -23,6 +26,11 @@ public class Collect : MonoBehaviour
                 coinFX.Play();
                 other.gameObject.SetActive(false);
                 break;
+
+            case "Obstacle":
+                isCollided = true;
+                break;
+
         }
     }
 }

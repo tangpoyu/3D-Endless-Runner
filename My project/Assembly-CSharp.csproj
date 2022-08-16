@@ -59,12 +59,14 @@
     <Compile Include="Assets\Scripts\collectibles\RotateGameObject.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
-    <Compile Include="Assets\Scripts\Controller\UIHandler.cs" />
+    <Compile Include="Assets\Scripts\Controller\UI\UIHandler.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Controller\Level\LevelStarter.cs" />
     <Compile Include="Assets\Scripts\Helper\TagsManager.cs" />
-    <Compile Include="Assets\Scripts\Environment\LevelBoundary.cs" />
+    <Compile Include="Assets\Scripts\Controller\Level\LevelBoundary.cs" />
     <Compile Include="Assets\Scripts\collectibles\Collect.cs" />
-    <Compile Include="Assets\Scripts\Environment\LevelStarter.cs" />
+    <Compile Include="Assets\Scripts\Helper\Rotate.cs" />
+    <Compile Include="Assets\Scripts\Player\AnimatorControll.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Water_Shader_WebGl.shader" />
